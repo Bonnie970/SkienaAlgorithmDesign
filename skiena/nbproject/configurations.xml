@@ -43,6 +43,8 @@ Contributor(s):
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>pointer1.h</itemPath>
+      <itemPath>sorting.h</itemPath>
       <itemPath>welcome.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
@@ -52,7 +54,9 @@ Contributor(s):
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>main.c</itemPath>
       <itemPath>pointer1.c</itemPath>
+      <itemPath>sorting.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -70,7 +74,15 @@ Contributor(s):
       </toolsSet>
       <compileType>
       </compileType>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="pointer1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="pointer1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sorting.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sorting.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="welcome.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -95,7 +107,15 @@ Contributor(s):
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="pointer1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="pointer1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sorting.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sorting.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="welcome.h" ex="false" tool="3" flavor2="0">
       </item>

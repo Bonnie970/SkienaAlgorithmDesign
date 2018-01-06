@@ -5,8 +5,10 @@
 #include <stdio.h>
 
 void print_array(int *ptr, int len);
+int pointer1(void);
+void swap_string(char** a, char** b);
 
-int main(){
+int pointer1(){
     // 1
     char *char_ptr = NULL;
     int *int_ptr = NULL;
@@ -27,6 +29,15 @@ int main(){
     print_array(cl,len);
         
     return 0;
+}
+
+/*
+ Switch pointers 
+ */
+void swap_string(char** a, char** b){
+    char* x = *a; 
+    *a = *b;
+    *b = x;
 }
 
 void print_array(int *ptr, int len){
